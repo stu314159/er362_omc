@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<settings>
+  <run_mode>fixed source</run_mode>
+  <particles>1000000</particles>
+  <batches>50</batches>
+  <source strength="1000">
+    <space type="point">
+      <parameters>0.0 0.0 0.0</parameters>
+    </space>
+    <angle type="isotropic" />
+    <energy type="discrete">
+      <parameters>0.0253 1.0</parameters>
+    </energy>
+  </source>
+</settings>
