@@ -48,11 +48,11 @@ outer_region = +box_xm & -box_xp & +box_ym & -box_yp & +box_zm & -box_zp & +sphe
 #cell3 = ~cell2 & ~cell1;#<-- do I need this?
 
 cell1 = openmc.Cell();
-cell1.fill = 'void';
+cell1.fill = None;
 cell1.region = sphere_region;
 
 cell2 = openmc.Cell()
-cell2.fill = 'void';
+cell2.fill = None;
 cell2.region = outer_region;
 
 root = openmc.Universe()

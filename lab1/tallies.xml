@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tallies>
+  <filter id="1" type="surface">
+    <bins>1</bins>
+  </filter>
+  <tally id="1" name="sphere">
+    <filters>1</filters>
+    <scores>current</scores>
+  </tally>
+</tallies>
