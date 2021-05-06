@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material depletable="true" id="38" name="fuel">
+    <density units="atom/b-cm" value="0.037" />
+    <nuclide ao="1" name="Pu239" />
+  </material>
+</materials>
