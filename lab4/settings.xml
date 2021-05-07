@@ -6,10 +6,12 @@
   <inactive>50</inactive>
   <source strength="1.0">
     <space type="fission">
-      <parameters>-6.65869140625 -6.65869140625 -6.65869140625 6.65869140625 6.65869140625 6.65869140625</parameters>
+      <parameters>-154.931640625 -154.931640625 -154.931640625 154.931640625 154.931640625 154.931640625</parameters>
     </space>
   </source>
   <output>
     <tallies>false</tallies>
   </output>
+  <temperature_method>interpolation</temperature_method>
+  <temperature_multipole>false</temperature_multipole>
 </settings>

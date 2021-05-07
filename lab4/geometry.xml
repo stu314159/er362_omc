@@ -1,5 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <geometry>
-  <cell id="37" material="38" region="-37" universe="37" />
-  <surface boundary="vacuum" coeffs="0.0 0.0 0.0 6.65869140625" id="37" type="sphere" />
+  <cell id="77" material="77" region="-357 358 -359 360 361 -362" universe="77" />
+  <surface boundary="vacuum" coeffs="154.931640625" id="357" type="y-plane" />
+  <surface boundary="vacuum" coeffs="-154.931640625" id="358" type="y-plane" />
+  <surface boundary="vacuum" coeffs="154.931640625" id="359" type="x-plane" />
+  <surface boundary="vacuum" coeffs="-154.931640625" id="360" type="x-plane" />
+  <surface boundary="vacuum" coeffs="-154.931640625" id="361" type="z-plane" />
+  <surface boundary="vacuum" coeffs="154.931640625" id="362" type="z-plane" />
 </geometry>
