@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material depletable="true" id="107" name="fuel">
+    <density units="g/cm3" value="1.0145" />
+    <nuclide name="U235" wo="0.014292755051749631" />
+    <nuclide name="H1" wo="0.10952302721647227" />
+    <nuclide name="O16" wo="0.8761842177317781" />
+    <sab name="c_H_in_H2O" />
+  </material>
+  <material id="108" name="graphite reflector">
+    <density units="g/cm3" value="1.7" />
+    <nuclide ao="1.0" name="C0" />
+    <sab name="c_Graphite" />
+  </material>
+</materials>

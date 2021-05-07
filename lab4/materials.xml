@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <materials>
-  <material depletable="true" id="77" name="fuel" temperature="473.15">
-    <density units="g/cm3" value="2.26" />
+  <material depletable="true" id="27" name="fuel" temperature="473.15">
+    <density units="g/cm3" value="1.7" />
     <nuclide ao="1e-05" name="U235" />
     <nuclide ao="1.0" name="C0" />
     <sab name="c_Graphite" />

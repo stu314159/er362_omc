@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<geometry>
+  <cell id="107" material="107" region="-105" universe="69" />
+  <cell id="108" material="108" region="105 -106" universe="69" />
+  <surface coeffs="0.0 0.0 0.0 40.9521484375" id="105" type="sphere" />
+  <surface boundary="vacuum" coeffs="0.0 0.0 0.0 204.7607421875" id="106" type="sphere" />
+</geometry>
