@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tallies>
+  <filter id="1" type="energy">
+    <bins>0.0 0.625 20000000.0</bins>
+  </filter>
+  <filter id="3" type="cell">
+    <bins>2</bins>
+  </filter>
+  <filter id="4" type="cell">
+    <bins>3</bins>
+  </filter>
+  <tally id="3" name="abs. fuel">
+    <filters>1 3</filters>
+    <nuclides>U235 U238</nuclides>
+    <scores>absorption</scores>
+  </tally>
+  <tally id="4" name="abs. mod">
+    <filters>1 4</filters>
+    <nuclides>H1 O16</nuclides>
+    <scores>absorption</scores>
+  </tally>
+  <tally id="5" name="fission tally">
+    <filters>1 3</filters>
+    <nuclides>U235 U238</nuclides>
+    <scores>fission nu-fission</scores>
+  </tally>
+</tallies>

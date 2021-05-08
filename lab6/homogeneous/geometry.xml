@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<geometry>
+  <cell id="1" material="1" region="-1 2 -3" universe="1" />
+  <surface boundary="vacuum" coeffs="0.0 0.0 75.0" id="1" type="z-cylinder" />
+  <surface boundary="vacuum" coeffs="-5.0" id="2" type="z-plane" />
+  <surface boundary="vacuum" coeffs="145.0" id="3" type="z-plane" />
+</geometry>
