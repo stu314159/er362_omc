@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<geometry>
+  <cell id="26" material="4" name="fuel" region="-40 41 -42" universe="21" />
+  <cell id="27" material="5" name="mod in fuel" region="40 | -41 | 42" universe="21" />
+  <cell fill="21" id="29" universe="23" />
+  <surface coeffs="0.0 0.0 31.5" id="40" type="z-cylinder" />
+  <surface coeffs="0.0" id="41" type="z-plane" />
+  <surface coeffs="100.0" id="42" type="z-plane" />
+</geometry>

@@ -1,0 +1,46 @@
+ ======================>     TALLY 11: ABS. FUEL     <======================
+
+ Incoming Energy [0.0, 0.625)
+   Cell 31
+     U235
+       Absorption Rate                      0.0928615 +/- 0.000260932
+     U238
+       Absorption Rate                      0.0387631 +/- 0.000109838
+ Incoming Energy [0.625, 20000000.0)
+   Cell 31
+     U235
+       Absorption Rate                      0.0528705 +/- 0.000103714
+     U238
+       Absorption Rate                      0.428358 +/- 0.000530228
+ ======================>     TALLY 12: ABS. MOD     <=======================
+
+ Incoming Energy [0.0, 0.625)
+   Cell 32
+     H1
+       Absorption Rate                      0.364923 +/- 0.000571546
+     O16
+       Absorption Rate                      0.000104446 +/- 1.63582e-07
+ Incoming Energy [0.625, 20000000.0)
+   Cell 32
+     H1
+       Absorption Rate                      0.00347749 +/- 4.19161e-06
+     O16
+       Absorption Rate                      0.000694683 +/- 6.25531e-06
+ ====================>     TALLY 13: FISSION TALLY     <====================
+
+ Incoming Energy [0.0, 0.625)
+   Cell 31
+     U235
+       Fission Rate                         0.0793735 +/- 0.000223189
+       Nu-Fission Rate                      0.193409 +/- 0.000543845
+     U238
+       Fission Rate                         2.41718e-07 +/- 6.84998e-10
+       Nu-Fission Rate                      6.02383e-07 +/- 1.70708e-09
+ Incoming Energy [0.625, 20000000.0)
+   Cell 31
+     U235
+       Fission Rate                         0.0405384 +/- 7.13914e-05
+       Nu-Fission Rate                      0.0999736 +/- 0.000173918
+     U238
+       Fission Rate                         0.0829928 +/- 0.000117678
+       Nu-Fission Rate                      0.231344 +/- 0.00034012
