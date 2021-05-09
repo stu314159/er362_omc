@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tallies>
+  <filter id="1" type="energy">
+    <bins>0.0 0.625 20000000.0</bins>
+  </filter>
+  <filter id="20" type="distribcell">
+    <bins>30</bins>
+  </filter>
+  <filter id="22" type="cell">
+    <bins>34</bins>
+  </filter>
+  <filter id="21" type="distribcell">
+    <bins>31</bins>
+  </filter>
+  <tally id="26" name="abs. fuel">
+    <filters>1 20</filters>
+    <nuclides>U235 U238</nuclides>
+    <scores>absorption</scores>
+  </tally>
+  <tally id="27" name="abs. mod refl">
+    <filters>1 22</filters>
+    <nuclides>C0</nuclides>
+    <scores>absorption</scores>
+  </tally>
+  <tally id="28" name="abs. mod fuel">
+    <filters>1 21</filters>
+    <nuclides>H2 O16</nuclides>
+    <scores>absorption</scores>
+  </tally>
+  <tally id="29" name="fission tally">
+    <filters>1 20</filters>
+    <nuclides>U235 U238</nuclides>
+    <scores>fission nu-fission</scores>
+  </tally>
+</tallies>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material depletable="true" id="4" name="fuel">
+    <density units="g/cm3" value="19.1" />
+    <nuclide name="U238" wo="0.99" />
+    <nuclide name="U235" wo="0.01" />
+  </material>
+  <material id="5" name="mod">
+    <density units="g/cm3" value="1.105" />
+    <nuclide ao="2" name="H2" />
+    <nuclide ao="1" name="O16" />
+    <sab name="c_D_in_D2O" />
+  </material>
+  <material id="6" name="graph_refl">
+    <density units="g/cm3" value="1.7" />
+    <nuclide ao="1" name="C0" />
+    <sab name="c_Graphite" />
+  </material>
+</materials>
