@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plots>
-  <plot basis="xy" color_by="material" id="2" type="slice">
+  <plot basis="xy" color_by="material" id="4" type="slice">
     <origin>0.0 0.0 10.0</origin>
-    <width>152 152</width>
-    <pixels>400 400</pixels>
+    <width>200.0 200.0</width>
+    <pixels>1024 1024</pixels>
     <color id="2" rgb="255 255 0" />
     <color id="3" rgb="0 0 255" />
   </plot>

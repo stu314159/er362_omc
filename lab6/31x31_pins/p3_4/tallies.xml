@@ -3,32 +3,32 @@
   <filter id="1" type="energy">
     <bins>0.0 0.625 20000000.0</bins>
   </filter>
-  <filter id="5" type="distribcell">
-    <bins>4</bins>
+  <filter id="17" type="distribcell">
+    <bins>25</bins>
   </filter>
-  <filter id="7" type="cell">
-    <bins>9</bins>
+  <filter id="19" type="cell">
+    <bins>29</bins>
   </filter>
-  <filter id="6" type="distribcell">
-    <bins>5</bins>
+  <filter id="18" type="distribcell">
+    <bins>26</bins>
   </filter>
-  <tally id="6" name="abs. fuel">
-    <filters>1 5</filters>
+  <tally id="22" name="abs. fuel">
+    <filters>1 17</filters>
     <nuclides>U235 U238</nuclides>
     <scores>absorption</scores>
   </tally>
-  <tally id="7" name="abs. mod refl">
-    <filters>1 7</filters>
+  <tally id="23" name="abs. mod refl">
+    <filters>1 19</filters>
     <nuclides>H1 O16</nuclides>
     <scores>absorption</scores>
   </tally>
-  <tally id="8" name="abs. mod fuel">
-    <filters>1 6</filters>
+  <tally id="24" name="abs. mod fuel">
+    <filters>1 18</filters>
     <nuclides>H1 O16</nuclides>
     <scores>absorption</scores>
   </tally>
-  <tally id="9" name="fission tally">
-    <filters>1 5</filters>
+  <tally id="25" name="fission tally">
+    <filters>1 17</filters>
     <nuclides>U235 U238</nuclides>
     <scores>fission nu-fission</scores>
   </tally>

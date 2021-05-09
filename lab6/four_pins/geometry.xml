@@ -1,9 +1,29 @@
 <?xml version='1.0' encoding='utf-8'?>
 <geometry>
-  <cell id="26" material="4" name="fuel" region="-40 41 -42" universe="21" />
-  <cell id="27" material="5" name="mod in fuel" region="40 | -41 | 42" universe="21" />
-  <cell fill="21" id="29" universe="23" />
-  <surface coeffs="0.0 0.0 31.5" id="40" type="z-cylinder" />
-  <surface coeffs="0.0" id="41" type="z-plane" />
-  <surface coeffs="100.0" id="42" type="z-plane" />
+  <cell id="4" material="2" name="fuel" region="-7 8 -9" universe="3" />
+  <cell id="5" material="3" name="mod in fuel" region="7 | -8 | 9" universe="3" />
+  <cell id="6" material="3" universe="4" />
+  <cell fill="6" id="8" region="10 -11 12 -13 14 -15" universe="7" />
+  <cell id="9" material="3" region="(-10 | 11 | -12 | 13 | -14 | 15) (-1 2 -3)" universe="7" />
+  <lattice id="6">
+    <pitch>38 38</pitch>
+    <outer>4</outer>
+    <dimension>2 2</dimension>
+    <lower_left>-38 -38</lower_left>
+    <universes>
+3 3 
+3 3 </universes>
+  </lattice>
+  <surface boundary="vacuum" coeffs="0.0 0.0 75.0" id="1" type="z-cylinder" />
+  <surface boundary="vacuum" coeffs="-5.0" id="2" type="z-plane" />
+  <surface boundary="vacuum" coeffs="145.0" id="3" type="z-plane" />
+  <surface coeffs="0.0 0.0 15.5" id="7" type="z-cylinder" />
+  <surface coeffs="0.0" id="8" type="z-plane" />
+  <surface coeffs="100.0" id="9" type="z-plane" />
+  <surface coeffs="-38.0" id="10" type="x-plane" />
+  <surface coeffs="38.0" id="11" type="x-plane" />
+  <surface coeffs="-38.0" id="12" type="y-plane" />
+  <surface coeffs="38.0" id="13" type="y-plane" />
+  <surface coeffs="0.0" id="14" type="z-plane" />
+  <surface coeffs="100.0" id="15" type="z-plane" />
 </geometry>
