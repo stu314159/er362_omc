@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<geometry>
+  <cell id="1" material="1" region="-1 2 -3" temperature="900" universe="1" />
+  <cell id="2" material="2" region="(1 | -2 | 3) (-4 5 -6)" universe="1" />
+  <cell id="3" material="3" region="(4 | -5 | 6) (7 -8 9 -10 11 -12)" universe="1" />
+  <surface coeffs="0.0 0.0 0.42" id="1" type="z-cylinder" />
+  <surface coeffs="-100.0" id="2" type="z-plane" />
+  <surface coeffs="100.0" id="3" type="z-plane" />
+  <surface coeffs="0.0 0.0 0.45" id="4" type="z-cylinder" />
+  <surface coeffs="-100.015" id="5" type="z-plane" />
+  <surface coeffs="100.045" id="6" type="z-plane" />
+  <surface boundary="reflective" coeffs="-0.49500000000000005" id="7" type="x-plane" />
+  <surface boundary="reflective" coeffs="0.49500000000000005" id="8" type="x-plane" />
+  <surface boundary="reflective" coeffs="-0.49500000000000005" id="9" type="y-plane" />
+  <surface boundary="reflective" coeffs="0.49500000000000005" id="10" type="y-plane" />
+  <surface boundary="reflective" coeffs="-150.0" id="11" type="z-plane" />
+  <surface boundary="reflective" coeffs="150.0" id="12" type="z-plane" />
+</geometry>
