@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plots>
+  <plot basis="xy" color_by="material" id="1" type="slice">
+    <origin>0.0 0.0 350.0</origin>
+    <width>-37.5 -37.5</width>
+    <pixels>400 400</pixels>
+    <color id="2" rgb="0 0 255" />
+    <color id="4" rgb="128 128 0" />
+    <color id="5" rgb="255 255 0" />
+    <color id="6" rgb="128 128 128" />
+  </plot>
+</plots>
