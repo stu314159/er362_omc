@@ -1,20 +1,27 @@
 <?xml version='1.0' encoding='utf-8'?>
 <materials>
+  <material id="2" name="water">
+    <density units="g/cm3" value="0.7" />
+    <nuclide ao="1.99968852" name="H1" />
+    <nuclide ao="0.00031148" name="H2" />
+    <nuclide ao="0.999621" name="O16" />
+    <nuclide ao="0.000379" name="O17" />
+  </material>
   <material depletable="true" id="4" name="uo2(0.36937012499999994)-water(0.502042375)-clad(0.12858750000000002)">
     <density units="g/cm3" value="5.0669205999999996" />
-    <nuclide ao="2.5812029913539947e-05" name="U234" />
-    <nuclide ao="0.0028878522470266246" name="U235" />
-    <nuclide ao="0.12671809968630918" name="U238" />
-    <nuclide ao="1.3227750373159391e-05" name="U236" />
-    <nuclide ao="0.43520901914799537" name="O16" />
-    <nuclide ao="0.00016500675581754512" name="O17" />
-    <nuclide ao="0.35211323829558544" name="H1" />
-    <nuclide ao="5.484665755060141e-05" name="H2" />
-    <nuclide ao="0.04260723572744089" name="Zr90" />
-    <nuclide ao="0.00929160709158186" name="Zr91" />
-    <nuclide ao="0.014202411909146966" name="Zr92" />
-    <nuclide ao="0.01439288157323465" name="Zr94" />
-    <nuclide ao="0.0023187611280239945" name="Zr96" />
+    <nuclide ao="1.2906865179435422e-05" name="U234" />
+    <nuclide ao="0.0014440212465022097" name="U235" />
+    <nuclide ao="0.12817147725028358" name="U238" />
+    <nuclide ao="6.6143108955579454e-06" name="U236" />
+    <nuclide ao="0.4351976999655865" name="O16" />
+    <nuclide ao="0.000165002464220897" name="O17" />
+    <nuclide ao="0.3521304768254743" name="H1" />
+    <nuclide ao="5.4849342697431064e-05" name="H2" />
+    <nuclide ao="0.04260932166465281" name="Zr90" />
+    <nuclide ao="0.009292061984011748" name="Zr91" />
+    <nuclide ao="0.014203107221550939" name="Zr92" />
+    <nuclide ao="0.014393586210528005" name="Zr94" />
+    <nuclide ao="0.0023188746484164796" name="Zr96" />
     <sab name="c_H_in_H2O" />
   </material>
   <material id="5" name="b4c">
