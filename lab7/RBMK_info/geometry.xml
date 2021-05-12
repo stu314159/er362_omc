@@ -2,29 +2,29 @@
 <geometry>
   <cell id="1" material="4" region="-3 2 -1" universe="1" />
   <cell id="2" material="6" region="3 2 -1" universe="1" />
-  <cell id="81" material="5" region="-3 -1 82" universe="54" />
-  <cell id="82" material="6" region="-3 83 -82" universe="54" />
-  <cell id="83" material="2" region="-3 2 -83" universe="54" />
-  <cell id="84" material="6" region="3 2 -1" universe="54" />
-  <cell id="85" material="6" universe="55" />
-  <cell fill="56" id="86" region="84 -85 -86 87 -1 2" universe="57" />
-  <lattice id="56">
+  <cell id="297" material="5" region="-3 -1 298" universe="198" />
+  <cell id="298" material="6" region="-3 299 -298" universe="198" />
+  <cell id="299" material="2" region="-3 2 -299" universe="198" />
+  <cell id="300" material="6" region="3 2 -1" universe="198" />
+  <cell id="301" material="6" universe="199" />
+  <cell fill="200" id="302" region="300 -301 -302 303 -1 2" universe="201" />
+  <lattice id="200">
     <pitch>25 25</pitch>
-    <outer>55</outer>
+    <outer>199</outer>
     <dimension>3 3</dimension>
     <lower_left>-37.5 -37.5</lower_left>
     <universes>
 1 1 1 
-1 54 1 
+1 198 1 
 1 1 1 </universes>
   </lattice>
   <surface boundary="vacuum" coeffs="700" id="1" type="z-plane" />
   <surface boundary="vacuum" coeffs="0.0" id="2" type="z-plane" />
   <surface coeffs="0.0 0.0 4.0" id="3" type="z-cylinder" />
-  <surface coeffs="0.0" id="82" type="z-plane" />
-  <surface coeffs="-1199.0" id="83" type="z-plane" />
-  <surface boundary="reflective" coeffs="-37.5" id="84" type="y-plane" />
-  <surface boundary="reflective" coeffs="37.5" id="85" type="y-plane" />
-  <surface boundary="reflective" coeffs="37.5" id="86" type="x-plane" />
-  <surface boundary="reflective" coeffs="-37.5" id="87" type="x-plane" />
+  <surface coeffs="0.0" id="298" type="z-plane" />
+  <surface coeffs="-1399.0" id="299" type="z-plane" />
+  <surface boundary="reflective" coeffs="-37.5" id="300" type="y-plane" />
+  <surface boundary="reflective" coeffs="37.5" id="301" type="y-plane" />
+  <surface boundary="reflective" coeffs="37.5" id="302" type="x-plane" />
+  <surface boundary="reflective" coeffs="-37.5" id="303" type="x-plane" />
 </geometry>
