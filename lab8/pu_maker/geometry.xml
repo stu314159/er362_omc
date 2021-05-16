@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<geometry>
+  <cell id="1" material="1" region="-1 2 -3" temperature="800" universe="1" />
+  <cell id="2" material="2" region="(1 | -2 | 3) (-4 5 -6)" universe="1" />
+  <cell id="3" material="4" region="(4 | -5 | 6) (-7 8 -9)" universe="1" />
+  <cell id="4" material="5" region="(7 | -8 | 9) (10 -11 12 -13 14 -15)" temperature="700" universe="1" />
+  <surface coeffs="0.0 0.0 2.0" id="1" type="z-cylinder" />
+  <surface coeffs="-100.0" id="2" type="z-plane" />
+  <surface coeffs="100.0" id="3" type="z-plane" />
+  <surface coeffs="0.0 0.0 2.1" id="4" type="z-cylinder" />
+  <surface coeffs="-100.05" id="5" type="z-plane" />
+  <surface coeffs="100.14999999999999" id="6" type="z-plane" />
+  <surface coeffs="0.0 0.0 2.25" id="7" type="z-cylinder" />
+  <surface coeffs="-145.0" id="8" type="z-plane" />
+  <surface coeffs="145.0" id="9" type="z-plane" />
+  <surface boundary="reflective" coeffs="-12.375" id="10" type="x-plane" />
+  <surface boundary="reflective" coeffs="12.375" id="11" type="x-plane" />
+  <surface boundary="reflective" coeffs="-12.375" id="12" type="y-plane" />
+  <surface boundary="reflective" coeffs="12.375" id="13" type="y-plane" />
+  <surface boundary="reflective" coeffs="-150.0" id="14" type="z-plane" />
+  <surface boundary="reflective" coeffs="150.0" id="15" type="z-plane" />
+</geometry>
