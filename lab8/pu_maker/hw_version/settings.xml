@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<settings>
+  <run_mode>eigenvalue</run_mode>
+  <particles>10000</particles>
+  <batches>150</batches>
+  <inactive>50</inactive>
+  <source strength="1.0">
+    <space type="fission">
+      <parameters>-2.0 -2.0 -100.0 2.0 2.0 100.0</parameters>
+    </space>
+  </source>
+  <temperature_method>interpolation</temperature_method>
+</settings>
