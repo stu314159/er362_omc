@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<geometry>
+  <cell id="3" material="4" region="-16 17 -18" temperature="600" universe="2" />
+  <cell id="4" material="3" region="(16 | -17 | 18) (10 -11 12 -13 14 -15)" temperature="600" universe="2" />
+  <surface boundary="reflective" coeffs="-2.5" id="10" type="x-plane" />
+  <surface boundary="reflective" coeffs="2.5" id="11" type="x-plane" />
+  <surface boundary="reflective" coeffs="-2.5" id="12" type="y-plane" />
+  <surface boundary="reflective" coeffs="2.5" id="13" type="y-plane" />
+  <surface boundary="reflective" coeffs="-200.0" id="14" type="z-plane" />
+  <surface boundary="reflective" coeffs="200.0" id="15" type="z-plane" />
+  <surface coeffs="0.0 0.0 0.5" id="16" type="z-cylinder" />
+  <surface coeffs="-199.5" id="17" type="z-plane" />
+  <surface coeffs="199.5" id="18" type="z-plane" />
+</geometry>
