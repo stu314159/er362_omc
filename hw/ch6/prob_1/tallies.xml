@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tallies>
+  <filter id="1" type="cell">
+    <bins>1</bins>
+  </filter>
+  <tally id="1" name="nu">
+    <filters>1</filters>
+    <scores>nu-fission</scores>
+  </tally>
+  <tally id="2" name="abs">
+    <nuclides>Pu239 Na23</nuclides>
+    <scores>absorption</scores>
+  </tally>
+  <tally id="3" name="fission">
+    <scores>fission</scores>
+  </tally>
+  <tally id="4" name="n_gamma">
+    <nuclides>Pu239</nuclides>
+    <scores>(n,gamma)</scores>
+  </tally>
+</tallies>

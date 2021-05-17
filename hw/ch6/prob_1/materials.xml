@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material depletable="true" id="1" name="core">
+    <density units="g/cm3" value="1.0" />
+    <nuclide name="Na23" wo="0.97" />
+    <nuclide name="Pu239" wo="0.03" />
+  </material>
+</materials>
