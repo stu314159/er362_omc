@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <geometry>
   <cell id="27" material="27" region="-87 88 -89 90 91 -92" universe="27" />
-  <surface boundary="vacuum" coeffs="205.615234375" id="87" type="y-plane" />
-  <surface boundary="vacuum" coeffs="-205.615234375" id="88" type="y-plane" />
-  <surface boundary="vacuum" coeffs="205.615234375" id="89" type="x-plane" />
-  <surface boundary="vacuum" coeffs="-205.615234375" id="90" type="x-plane" />
-  <surface boundary="vacuum" coeffs="-205.615234375" id="91" type="z-plane" />
-  <surface boundary="vacuum" coeffs="205.615234375" id="92" type="z-plane" />
+  <surface boundary="vacuum" coeffs="205.322265625" id="87" type="y-plane" />
+  <surface boundary="vacuum" coeffs="-205.322265625" id="88" type="y-plane" />
+  <surface boundary="vacuum" coeffs="205.322265625" id="89" type="x-plane" />
+  <surface boundary="vacuum" coeffs="-205.322265625" id="90" type="x-plane" />
+  <surface boundary="vacuum" coeffs="-205.322265625" id="91" type="z-plane" />
+  <surface boundary="vacuum" coeffs="205.322265625" id="92" type="z-plane" />
 </geometry>
