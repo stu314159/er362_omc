@@ -2,3 +2,4 @@
 *.h5
 *.out
 *.xml
+*.vtk
