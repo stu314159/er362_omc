@@ -38,7 +38,7 @@ lam = nan(N_isotopes,1); % sec, decay constants
 
 % 1 - Np-237
 sigma_c(1) = 169;
-sigma_f(1) = 0;
+sigma_f(1) = 0.07; % from chart of nuclides
 lam(1) = 0; % assume stable
 
 % 2 - Np-238
@@ -152,3 +152,39 @@ ylabel('Pu-238/Pu-239','Fontsize',14,'FontWeight','bold');
 grid on
 legend('Np-237','Np-238','Pu-238','Pu-239','Np-239',...
     'Pu-238 (after 21 days)','Pu-238/Pu-239');
+
+%% Compute and Plot some Specific Reaction Rates
+
+np238_decay = N(2,:)*lam(2,2);% production of Pu238
+np238_fiss = N(2,:)*sigma_f(3).*flux; % loss term
+np237_fiss = N(1,:)*sigma_f(1).*flux; % loss term
+pu238_fiss = N(3,:)*sigma_f(3).*flux; % loss term
+pu238_capture = N(3,:)*sigma_c(3)*flux; % loss term
+
+% this turned out to be not very interesting.  Maybe I'm looking at the
+% wrong things...
+figure(2)
+semilogy(tSpace,np238_decay,'-g',...
+    tSpace,pu238_fiss,'-r',...
+    tSpace,pu238_capture,'-k','linewidth',3);
+grid on
+title('Specific Reaction Rates','fontsize',16,'fontweight','bold');
+xlabel('Irradiation time [hr]','fontsize',14,'fontweight','bold');
+ylabel('Reaction Rates [1/hr]','fontsize',14,'fontweight','bold');
+legend('Np238 decay','Pu238 fission','Pu238 (n,gamma)');
+set(gca,'fontsize',12,'fontweight','bold');
+
+figure(3)
+semilogy(tSpace,np238_fiss,'-g',...
+    tSpace,np237_fiss,'-c',...
+    tSpace,pu238_fiss,'-r',...
+    tSpace,pu238_capture,'-y',...
+    'linewidth',3);
+
+legend('Np238 fission','Np237 fission','Pu238 fission','Pu238 capture');
+title('Major Loss Terms','fontsize',16,'fontweight','bold');
+xlabel('Irradiaiton time [hrs]','FontSize',14,'fontweight','bold');
+ylabel('Reaction Rate [1/hr]','FontSize',14,'FontWeight','bold');
+grid on
+set(gca,'fontsize',12,'fontweight','bold')
+axis([0 1000 1e32 1e38]);
